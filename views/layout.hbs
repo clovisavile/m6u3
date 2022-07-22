@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reventor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/reventor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="holder">
+            <center><img src="images/header.png" width="300"> </center>
+        </div>
+    </header>
+    <nav>
+        <div class="holder">
+            <ul>
+                <li><a class="{{#if isHome}}activo{{/if}}" href="/index">Home</a></li>
+                <li><a class="{{#if isVideos}}activo{{/if}}"href="/videos">Videos</a></li>
+                <li><a class="{{#if isFechas}}activo{{/if}}"href="/fechas">Fechas</a></li>
+                <li><a class="{{#if isEscuchanos}}activo{{/if}}"href="/escuchanos">Escuchanos</a></li>
+                <li><a class="{{#if isBiografia}}activo{{/if}}"href="/biografia">Biografia</a></li>
+                <li><a class="{{#if isGaleria}}activo{{/if}}"href="/galeria">Galeria</a></li>
+                <li><a class="{{#if isContacto}}activo{{/if}}"href="/contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="holder">
+  <body>
+    {{{body}}}
+  </main>
+    <footer>
+        <p> REVENTOR DEATH METAL</p>
+    </footer>
+
+</body>
+
+</html>

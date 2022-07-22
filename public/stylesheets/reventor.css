@@ -1,0 +1,320 @@
+/*
+font-family: 'Open Sans', sans-serif; 
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(21, 21, 21);
+  color: azure;
+}
+
+header {
+  background-color: black;
+  padding: 1em;
+}
+
+nav {
+  background-color: rgb(170, 0, 0);
+  margin-bottom: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 13.9%;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+  background-color: rgb(230, 0, 0);
+}
+
+footer {
+  background-color: rgb(59, 59, 59);
+  clear: both;
+  color: rgb(255, 255, 255);
+  padding: 3em 0;
+  margin-top: 2em;
+  text-align: center;
+}
+
+nav ul li a.activo {
+  background-color: rgb(250, 0, 0);
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* home inicio */
+
+.bienvenidos {
+  padding-right: 20px;
+
+}
+
+.introduccion {
+  font-size: large;
+}
+
+.redes {
+  font-size: 30px;
+}
+
+/* home fin */
+
+/* fechas inicio */
+
+.fecha {
+  border: 1px solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.fecha .infofecha {
+  width: 50%;
+}
+
+.fecha .infofecha h4 {
+  color: rgb(255, 0, 0);
+  font-size: 1, 2em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 0.5em;
+}
+
+.fecha .infofecha p {
+  font-size: 0.8;
+  line-height: 1.2em;
+
+}
+
+.fecha img {
+  border-radius: 0.8em;
+}
+
+.fecha:nth-child(even) img {
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+.fecha:nth-child(even) .infofecha {
+  float: left;
+}
+
+.fecha:nth-child(odd) img {
+  float: left;
+  margin: 0 1em 0 0;
+
+}
+
+.fecha:nth-child(odd) .infofecha {
+  float: right;
+}
+
+/* fechas fin */
+
+/* inicio galeria */
+
+.galeria .foto {
+  float: left;
+  width: 30%;
+  margin: 1em 0 1em 2.5%;
+  border: 1px solid #ddd;
+  padding: 0.3em;
+  box-sizing: border-box;
+}
+
+.galeria .foto img {
+  width: 100%;
+  display: block;
+}
+
+/* .galeria .foto:nth-child(5n+1){
+  margin-left:0;
+} */
+
+
+/* fin galeria */
+
+/* inicio contacto */
+
+.fecha {
+  border: 1px solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.fecha .infofecha {
+  width: 50%;
+}
+
+.fecha .infofecha h4 {
+  color: rgb(255, 0, 0);
+  font-size: 1, 2em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 0.5em;
+}
+
+.fecha .infofecha p {
+  font-size: 0.8;
+  line-height: 1.2em;
+
+}
+
+.fecha img {
+  border-radius: 0.8em;
+}
+
+.fecha:nth-child(even) img {
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+.fecha:nth-child(even) .infofecha {
+  float: left;
+}
+
+.fecha:nth-child(odd) img {
+  float: left;
+  margin: 0 1em 0 0;
+
+}
+
+.fecha:nth-child(odd) .infofecha {
+  float: right;
+}
+
+/* fechas fin */
+
+/* inicio galeria */
+
+.galeria .foto {
+  float: left;
+  width: 30%;
+  margin: 1em 0 1em 2.5%;
+  border: 1px solid #ddd;
+  padding: 0.3em;
+  box-sizing: border-box;
+}
+
+.galeria .foto img {
+  width: 100%;
+  display: block;
+}
+
+/* .galeria .foto:nth-child(5n+1){
+  margin-left:0;
+} */
+
+
+/* fin galeria */
+
+/* inicio contacto */
+
+.right{
+  float: right;
+  width:50%;
+  text-align: center;
+  list-style-position:initial;
+  font-size: x-large
+}
+
+.left {
+  float: left;
+  width:50%;
+  text-align: center;
+}
+
+.columna {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0.6em;
+
+}
+
+.columna.left {
+  border-right: 1px solid gray;
+}
+
+.columna.right p {
+  font-size: 0.8em;
+}
+
+.columna.right ul li {
+  font-size: 0.8em;
+}
+
+.right {
+  float: right;
+  position: relative;
+}
+
+.formulario label {
+  vertical-align: top;
+  width: 20%;
+  display: inline-block;
+}
+
+.formulario input,
+.formulario textarea {
+  background-color: #ddd;
+  border-radius: 5px;
+  border: 1px solid #999;
+  padding: 0.4em 0.6em;
+  font-size: 0.8em;
+  width: 70%;
+}
+
+.formulario input [type="sumbit"] {
+  background-color: #6da9ed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 1em;
+  width: 20%;
+}
+
+.acciones {
+  width: 20%;
+  float: right;
+  padding-right: 40%;
+
+}
+
+.formulario textarea {
+  height: 10em;
+  resize:vertical;
+}
+
+.formulario .acciones {
+  text-align: center;
+}
+
+.icono {
+  background-color: red;
+}
+
+
+/* fin contacto */

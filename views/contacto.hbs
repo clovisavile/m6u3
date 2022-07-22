@@ -1,0 +1,37 @@
+<div class="columna left">
+    <h2>Contacto</h2>
+    <form action="/contacto" method="post" class="formulario">
+        <p>
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" />
+        </p>
+        <p>
+            <label for="">Email</label>
+            <input type="email" name="email" />
+        </p>
+        <p>
+            <label for="">Telefono</label>
+            <input type="text" name="tel" />
+        </p>
+        <p>
+            <label for="">Mensaje</label>
+            <textarea name="mensaje" id="comentario"></textarea>
+        </p>
+        <p class="acciones"><input type="submit" value="Enviar"></p>
+    </form>
+    {{#if message}}
+        <p>{{message}}</p>
+    {{/if}}
+</div>
+<div class="columna right">
+    <h2>Otras vias de contacto</h2>
+    <p>Tambien se pueden comunicar con nosotros a traves de:</p>
+    <ul>
+        <p><img src="images/icons8-whatsapp-96.png" width="25" class="icono">Whatsapp:+54 9 11 3912 6878</p>
+        <p><img src="images/icons8-facebook-96.png" width="25" class="icono"><a
+                href="https://www.facebook.com/reventormetal" target="Facebook">Facebook</a></p>
+        <p><img src="images/icons8-instagram-96.png" width="25" class="icono"><a
+                href="https://www.instagram.com/reventor_/" target="Instagram">Instagram</a></p>
+        <p><img src="images/icons8-gmail-96.png" width="25" class="icono">E-Mail: reventorcontact@gmail.com </p>
+    </ul>
+</div>
